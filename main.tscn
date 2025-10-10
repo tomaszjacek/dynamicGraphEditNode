@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://e1bqx45axb21"]
+
+[ext_resource type="Script" uid="uid://ub285lncpgqv" path="res://main.gd" id="1_ig7tw"]
+
+[node name="main" type="Node2D"]
+script = ExtResource("1_ig7tw")
+
+[node name="GraphEdit" type="GraphEdit" parent="."]
+unique_name_in_owner = true
+offset_right = 1134.0
+offset_bottom = 681.0

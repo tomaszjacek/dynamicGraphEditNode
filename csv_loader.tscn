@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://1r20ivgveaa8"]
+
+[ext_resource type="Script" uid="uid://ccv6bukcbejt8" path="res://csv_loader.gd" id="1_85q0x"]
+
+[node name="CsvLoader" type="Node2D"]
+script = ExtResource("1_85q0x")

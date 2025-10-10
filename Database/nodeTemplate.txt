@@ -1,0 +1,5 @@
+label,type,val
+kernel height,SpinBox,2
+kernel width,SpinBox,3
+kernel channels,SpinBox,4
+n filters,SpinBox,5
