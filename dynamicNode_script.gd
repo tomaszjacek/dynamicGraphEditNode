@@ -15,3 +15,10 @@ func make_layout(dataDict : Dictionary):
 	
 func _process(delta):
 	pass
+
+
+
+#I never tried it, but I found instance(string) method of ClassDB in documentation. 
+#check out if ot works. ClassDB also has a method class_get_property_list with string
+# as argument, so You won’t even have to create any new instance.
+#ClassDB.instance()
