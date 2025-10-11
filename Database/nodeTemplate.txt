@@ -1,5 +1,5 @@
-label,type,val
-kernel height,SpinBox,2
-kernel width,SpinBox,3
-kernel channels,SpinBox,4
-n filters,SpinBox,5
+name,label,type,value
+kernel_height,kernel height,integerInput,2
+kernel_width,kernel width,integerInput,3
+kernel_channels,kernel channels,integerInput,4
+n_filters,n filters,integerInput,5

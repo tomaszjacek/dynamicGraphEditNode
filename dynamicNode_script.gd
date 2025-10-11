@@ -1,7 +1,7 @@
 extends GraphNode
 class_name dynamicNode
 
-const dNazwa = preload("res://dynamicNazwa.tscn")
+const dNazwa = preload("res://dynamicName.tscn")
 
 func _ready():
 	print("dynamicNode_ready")
