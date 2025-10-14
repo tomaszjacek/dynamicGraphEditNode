@@ -21,7 +21,6 @@ anchor_bottom = 1.0
 offset_top = 34.0
 grow_horizontal = 2
 grow_vertical = 2
-scroll_offset = Vector2(0, -43)
 
 [node name="Button" type="Button" parent="."]
 layout_mode = 0

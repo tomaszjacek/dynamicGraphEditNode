@@ -3,12 +3,14 @@ extends Control
 @onready var nodeD  = preload("res://dynamicNode.tscn")
 @onready var nodeD2  = preload("res://DynamicNodeV2.tscn")
 @onready var integerInput_ = preload("res://tensorflowPuzless/integerInput.tscn")
+@onready var initializer_ = preload("res://tensorflowPuzless/initializer.tscn")
 var puzzlePreloads:Dictionary = {}
 var n: int = 1
 
 func _ready():
 	print("main_ready")
 	puzzlePreloads["integerInput"]=integerInput_
+	puzzlePreloads["initializer"]=initializer_
 
 func _process(delta):
 	if Input.is_action_pressed("addDynamicNode"):

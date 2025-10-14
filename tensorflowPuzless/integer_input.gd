@@ -14,8 +14,8 @@ func setname(nametxt:String):
 func set_label(txt:String):
 	%integerInput_Label.text = txt
 
-func set_value(val:int):
-	%integerInput_SpinBox.value = val
-
+func set_value():
+	#%integerInput_SpinBox.value = val
+	pass
 func _process(delta):
 	pass
