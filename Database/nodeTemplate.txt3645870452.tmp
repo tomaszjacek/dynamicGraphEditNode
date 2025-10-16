@@ -1,5 +1,0 @@
-label type val
-kernel height,SpinBox,2
-kernel width,SpinBox,2
-kernel channels,SpinBox,2
-n filters,SpinBox,2
