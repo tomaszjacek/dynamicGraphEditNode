@@ -19,8 +19,8 @@ func make_layout(dataDict : Dictionary, puzzlePreloads : Dictionary):
 		
 		tmpPuzzle.setname(key)
 		tmpPuzzle.set_label(dataDict[key]["label"])
-		tmpPuzzle.set_value()
 		%vbox_left_v2.add_child(tmpPuzzle)
+		
 		
 func _process(delta):
 	pass

@@ -3,12 +3,14 @@
 [ext_resource type="Script" uid="uid://chr05xkui086r" path="res://dynamicNodeV2_script.gd" id="1_ulmfw"]
 
 [node name="DynamicNodeV2" type="GraphNode"]
-offset_left = 200.0
-offset_top = 200.0
-offset_right = 381.0
-offset_bottom = 340.0
+layout_direction = 2
+offset_right = 135.0
+offset_bottom = 55.0
 scale = Vector2(2, 2)
 pivot_offset = Vector2(10, 10)
+size_flags_horizontal = 3
+size_flags_vertical = 3
+resizable = true
 title = "dynamicNodeV2"
 slot/0/left_enabled = false
 slot/0/left_type = 0

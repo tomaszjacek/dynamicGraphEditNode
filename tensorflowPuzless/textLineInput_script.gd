@@ -1,9 +1,9 @@
 extends Control
-class_name integerInput
+class_name textLineInput
 #@onready var label = $VBoxContainer/Label
 #@onready var value = $VBoxContainer/SpinBox
 
-var puzzleName : String = "integerInput"
+var puzzleName : String = "textLineInput"
 var inNodeName : String = ""
 
 func _ready():
@@ -15,8 +15,7 @@ func setname(nametxt:String):
 func set_label(txt:String):
 	%Label.text = txt
 
-func set_value():
-	#%integerInput_SpinBox.value = val
-	pass
+func set_value(txt:String):
+	%TextEdit.text = txt
 func _process(delta):
 	pass

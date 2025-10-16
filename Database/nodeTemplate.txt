@@ -1,6 +1,5 @@
 name,label,type,value
-kernel_height,kernel height,integerInput,2
-kernel_width,kernel width,integerInput,3
-kernel_channels,kernel channels,integerInput,4
-n_filters,n filters,integerInput,5
-kernel_initializer, kernel initializer,initializer, default
+height,height,integerInput,2
+width,width,integerInput,3
+initializer,initializer,initializer, default
+initializer_shared,very long label name which does not resize parent,textLineInput, default
