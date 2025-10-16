@@ -1,9 +1,9 @@
 extends Control
 
 @onready var nodeD2  = preload("res://DynamicNodeV2.tscn")
-@onready var integerInput_ = preload("res://tensorflowPuzless/integerInput.tscn")
-@onready var initializer_ = preload("res://tensorflowPuzless/initializer.tscn")
-@onready var textLineInput_ = preload("res://tensorflowPuzless/textLineInput.tscn")
+@onready var integerInput_ = preload("res://puzless/integerInput.tscn")
+@onready var initializer_ = preload("res://puzless/initializer.tscn")
+@onready var textLineInput_ = preload("res://puzless/textLineInput.tscn")
 
 var puzzlePreloads:Dictionary = {}
 var n: int = 1

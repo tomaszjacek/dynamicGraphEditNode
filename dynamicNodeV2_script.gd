@@ -2,15 +2,9 @@ extends GraphNode
 class_name dynamicNodeV2
 
 
-#const dNazwa = preload("res://dynamicName.tscn")
-
-
-
-#var puzzlePreloads:Dictionary = {}
 
 func _ready():
-	print("dynamicNode_ready")
-	#puzzlePreloads["integerInput"]=integerInput_
+	pass
 	
 func make_layout(dataDict : Dictionary, puzzlePreloads : Dictionary):
 	for key in dataDict:
