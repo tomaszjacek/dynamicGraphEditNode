@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=3 uid="uid://cv103d5wllfxj"]
 
-[ext_resource type="Script" uid="uid://h6a6xa36oj0k" path="res://puzless/integer_input.gd" id="1_515r2"]
+[ext_resource type="Script" uid="uid://h6a6xa36oj0k" path="res://puzless/integerInput_script.gd" id="1_515r2"]
 
 [node name="IntegerInput" type="Control"]
 custom_minimum_size = Vector2(120, 66)
