@@ -1,3 +1,7 @@
 example created to test resizing containers acordingly to dinamically added childs 
+not expanding parent nodes is caused by children's root node.
+full explanation and solution pointed by 'mrcdk' form godot forum. here full thread 
+https://forum.godotengine.org/t/how-to-expand-resize-parent-after-dynamicaly-added-child/125326/2
 
-<img width="701" height="598" alt="ZrzutEkranuDynamicGraphNode" src="https://github.com/user-attachments/assets/b1e6f5ab-8f3d-4178-bc83-a183214fc5d5" />
+
+<img width="628" height="445" alt="ZrzutEkranuDynamicGraphNode_fixed" src="https://github.com/user-attachments/assets/2f60a49d-ef2e-4268-89f1-5e73062da857" />
