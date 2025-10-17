@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=3 uid="uid://cv103d5wllfxj"]
 
-[ext_resource type="Script" uid="uid://h6a6xa36oj0k" path="res://puzless/integerInput_script.gd" id="1_515r2"]
+[ext_resource type="Script" uid="uid://h6a6xa36oj0k" path="res://puzzles/integerInput_script.gd" id="1_515r2"]
 
 [node name="IntegerInput" type="Control"]
 custom_minimum_size = Vector2(120, 66)
@@ -30,3 +30,5 @@ size_flags_vertical = 3
 
 [node name="HSeparator" type="HSeparator" parent="VBoxContainer"]
 layout_mode = 2
+
+[connection signal="value_changed" from="VBoxContainer/integerInput_SpinBox" to="." method="_on_integer_input_spin_box_value_changed"]

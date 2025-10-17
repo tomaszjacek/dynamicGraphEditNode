@@ -28,4 +28,17 @@ offset_right = 167.0
 offset_bottom = 30.0
 text = "addNode"
 
+[node name="Button2" type="Button" parent="."]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 0.003
+anchor_bottom = 0.003
+offset_left = 174.0
+offset_top = 0.055999994
+offset_right = 340.0
+offset_bottom = 31.056
+text = "printAllNodesData"
+
 [connection signal="pressed" from="Button" to="." method="_on_button_pressed"]
+[connection signal="pressed" from="Button2" to="." method="_on_button_2_pressed"]

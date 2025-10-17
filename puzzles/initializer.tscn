@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=3 uid="uid://buexyes1bo6cg"]
 
-[ext_resource type="Script" uid="uid://cymgxqnv7063w" path="res://puzless/initializer_script.gd" id="1_nymcd"]
+[ext_resource type="Script" uid="uid://cymgxqnv7063w" path="res://puzzles/initializer_script.gd" id="1_nymcd"]
 
 [node name="initializer" type="Control"]
 custom_minimum_size = Vector2(120, 56)
@@ -31,3 +31,5 @@ size_flags_vertical = 3
 [node name="HSeparator" type="HSeparator" parent="VBoxContainer"]
 layout_mode = 2
 size_flags_vertical = 3
+
+[connection signal="item_selected" from="VBoxContainer/OptionButton" to="." method="_on_option_button_item_selected"]

@@ -1,0 +1,5 @@
+name,label,type,value
+height,height,integerInput_vboxroot,2
+width,width,integerInput_vboxroot,3
+initializer,initializer,initializer_vboxroot, default
+initializer_shared,very long label name which does not resize parent,textLineInput_vboxroot, default

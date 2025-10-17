@@ -3,6 +3,7 @@ class_name initializer
 
 var puzzleName : String = "initializer"
 var inNodeName : String = ""
+var parentNodeName : String = ""
 const initializers_array : Array[String] = [
 	"a",
 	"b", 
@@ -12,9 +13,10 @@ const initializers_array : Array[String] = [
 
 var stringToIdxMap:Dictionary={}
 
-func setname(nametxt:String):
-	inNodeName = puzzleName + "-" + nametxt
-
+func setname(nodename:String,nametxt:String):
+	parentNodeName = nodename
+	inNodeName =  nametxt
+	
 func set_label(txt:String):
 	%Label.text = txt
 
@@ -33,3 +35,12 @@ func _ready():
 
 func _process(delta):
 	pass
+
+#
+
+	
+
+
+func _on_option_button_item_selected(index: int) -> void:
+	var selected_item = initializers_array[index]
+	SignalsManager.puzzleInputUpdated.emit(parentNodeName,inNodeName,selected_item)
